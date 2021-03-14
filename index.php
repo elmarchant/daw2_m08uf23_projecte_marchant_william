@@ -2,6 +2,7 @@
 	$title = 'default';
 	$html = '<h1>default</h1>';
 	require './controller/pageHandler.php';
+	require './controller/sessionHandler.php';
 	require	$path;
 ?>
 <!DOCTYPE html>
