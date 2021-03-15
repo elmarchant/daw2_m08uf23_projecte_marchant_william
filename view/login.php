@@ -1,6 +1,6 @@
 <?php
 
-if($sessionStatus) header('location: /prjm08uf23?page=dashboard');
+if($sessionStatus) header('location: /prjm08uf23/?page=dashboard');
 
 $title = 'Iniciar sesión';
 $html ='
