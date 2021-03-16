@@ -3,7 +3,7 @@
     <name>prjm08uf23</name>
     <summary>Manipulación de bases de datos LDAP con PHP y ZendServer</summary>
     <version>
-        <release>1.0.6</release>
+        <release>1.0.7</release>
     </version>
     <appdir>data</appdir>
 </package>

@@ -21,7 +21,25 @@ $html = '
         <hr>
         <div>
             '.$data.'
-        </dvi>
+        </div>
+        <style>
+            .link-button{
+                display: inline-block;
+                padding: 8px;
+                text-decoration: none;
+                margin: 2px;
+            }
+
+            .delete-button{
+                background-color: #e84141;
+                color: white;
+            }
+
+            .modify-button{
+                background-color: #3f6ce8;
+                color: white;
+            }
+        </style>
     </main>
 ';
 ?>
