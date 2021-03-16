@@ -4,7 +4,13 @@ require 'controller/getData.php';
 $title = 'Visualizar datos';
 $html = '
     <main>
-        <a href="./model/closeSession.php">Cerrar sesión</a>
+        <h1>Inicio</h1>
+        <hr>
+        <ul>
+            <li><a href="./model/closeSession.php">Cerrar sesión</a></li>
+            <li><a href="/prjm08uf23/?page=createUser">Crear usuario</a></li>
+        </ul>
+        <hr>
         <form action="/prjm08uf23" method="GET">
             <input type="hidden" name="page" value="dashboard">
             Unidad organizativa: <input type="text" name="ou"><br>
@@ -12,6 +18,7 @@ $html = '
             <input type="submit"/>
             <input type="reset"/>
         </form>
+        <hr>
         <div>
             '.$data.'
         </dvi>
