@@ -17,7 +17,7 @@
         if(sizeof($usuari) > 0){
             $data .= '
                 <hr>
-                <a class="link-button modify-button" href="./controller/modifyUser.php?usr='.$_GET['usr'].'&ou='.$_GET['ou'].'">Modificar</a>
+                <a class="link-button modify-button" href="/prjm08uf23/?page=modifyUser&usr='.$_GET['usr'].'&ou='.$_GET['ou'].'">Modificar</a>
                 <a class="link-button delete-button" href="./controller/removeData.php?uid='.$_GET['usr'].'&unorg='.$_GET['ou'].'">Eliminar</a>
             ';
         }
